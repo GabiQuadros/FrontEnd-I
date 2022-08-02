@@ -1,0 +1,73 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+}
+
+img {
+  width: 250px;
+  padding-top: 20px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 350px;
+  margin-inline-start: 50px;
+}
+
+#lado1 {
+  background-color: rgb(145, 249, 233);
+  width: 20%;
+  height: 800px;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  font-family: monospace;
+}
+
+#sobre-lado2 {
+  display: inline-block;
+  width: 60%;
+  height: 800px;
+  text-align: center;
+  background: url(./images/1.jpg) no-repeat left top;
+  background-size: cover;
+  position: relative;
+  left: 20%;
+  font-family: monospace;
+}
+
+.mideas {
+  width: 50px;
+  margin-inline-start: 50px;
+}
+
+.White-background {
+  background-color: white;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 15px;
+}
+
+.links-style {
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin-right: 40px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.list {
+  text-align: left;
+}
+
+ul {
+  padding-left: 8px;
+  font-size: 30px;
+}
+
+.flex-container {
+  display: flex;
+}
